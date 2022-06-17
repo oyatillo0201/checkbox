@@ -1,17 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project</title>
+  <title>Checkbox</title>
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <main class="main-conntent">
+    <div class="main-content-container container">
+      <form class="form" action="htpps://echo.htmlacademy.ru" method="post">
+        <fieldset>
+          <legend class="main-content-heading">Qaysi sport turiga qiziqasiz?</legend>
+          <div class="form-inner">
+            <label class="checkbox-label">
+              <input class="checkbox checkbox-ping_pong visually-hidden" type="checkbox" value="ping_pong">
+              <span class="checkbox-control"></span>
+              <span class="checkbox-text">Stol tennisi</span>
+            </label>
 
+            <label class="checkbox-label">
+              <input class="checkbox checkbox-basketbal visually-hidden" type="checkbox" value="basketball">
+              <span class="checkbox-control"></span>
+              <span class="checkbox-text">Basketbol</span>
+            </label>
+
+            <label class="checkbox-label">
+              <input class="checkbox checkbox-voleybal visually-hidden" type="checkbox" value="volleyball">
+              <span class="checkbox-control"></span>
+              <span class="checkbox-text">Voleybol</span>
+            </label>
+
+            <label class="checkbox-label">
+              <input class="checkbox checkbox-hokkey visually-hidden" type="checkbox" value="ice_hokey" disabled>
+              <span class="checkbox-control"></span>
+              <span class="checkbox-text">Hokkey</span>
+            </label>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </main>
   <script src="js/main.js"></script>
 </body>
 </html>
