@@ -54,6 +54,10 @@ img {
   color: #000000;
 }
 
+.form {
+  margin-top: 150px;
+}
+
 .form-inner {
   display: flex;
   flex-direction: column;
